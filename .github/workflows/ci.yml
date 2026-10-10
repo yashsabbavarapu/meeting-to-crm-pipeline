@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install pytest mypy
+      - run: python -m pytest -q
+      - run: python -m mypy --strict src
+      - name: CLI demo smoke test
+        run: |
+          export PYTHONPATH=src
+          python -m meeting_crm ingest fixtures/transcripts/*.txt
+          python -m meeting_crm extract
+          python -m meeting_crm sync
+          python -m meeting_crm eval

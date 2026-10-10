@@ -1,0 +1,25 @@
+# call_id: gong-58211
+# title: Discovery call: Acme Logistics x Northwind
+# date: 2026-09-08
+# account: Acme Logistics
+# deal: Acme Logistics - Route Optimization
+# internal: Sam Ortiz, Priya Nair
+[00:00:04] Sam Ortiz: Thanks for making the time today, Dana. I'm Sam, the account executive on the Northwind side, and Priya Nair, our solutions engineer, is here too.
+[00:00:15] Dana Whitfield: Happy to. I'm Dana Whitfield, VP of Operations at Acme Logistics. I run our dispatch and fleet teams.
+[00:00:31] Sam Ortiz: Great. Tell me about how routing works today and what made you take this call.
+[00:00:40] Dana Whitfield: Honestly it is mostly spreadsheets. Our dispatchers rebuild routes every morning by hand,
+and fuel costs are up eleven percent this year.
+[00:01:12] Priya Nair: How many vehicles are we talking about?
+[00:01:16] Dana Whitfield: About 240 trucks across three depots.
+[00:01:35] Sam Ortiz: What does the manual process cost you, and is there budget set aside for this?
+[00:01:44] Dana Whitfield: We have roughly $120k budgeted for routing tooling this fiscal year, maybe a bit more if the ROI case is strong.
+[00:02:10] Sam Ortiz: Understood. And when would you want something live?
+[00:02:16] Dana Whitfield: We need to go live by Q1, before the spring volume spike hits.
+[00:02:40] Dana Whitfield: One thing to flag: anything that touches our driver data has to clear a security review with our IT team, and that can take a few weeks.
+[00:03:02] Dana Whitfield: Marcus Lee is our IT Security Lead, he will want to be in the next conversation.
+[00:03:20] Sam Ortiz: Perfect. I'll send over our SOC 2 report and the security questionnaire by Friday.
+[00:03:31] Priya Nair: And I'll put together a demo environment with a sample of your depot data.
+[00:03:45] Sam Ortiz: Dana, can you share a week of historical route exports so Priya can load them?
+[00:03:52] Dana Whitfield: Sure, I can get those to you by Wednesday.
+[00:04:05] Sam Ortiz: Let's schedule the demo for September 22 with you and Marcus.
+[00:04:12] Dana Whitfield: Works for me. Talk soon.

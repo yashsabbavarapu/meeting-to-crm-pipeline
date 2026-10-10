@@ -1,0 +1,16 @@
+{
+  "transcript": "01_discovery.txt",
+  "notes": "Hand-labeled. Dana's commitment to share route exports is labeled at the request (00:03:45); her due date comes in the reply.",
+  "facts": [
+    {"kind": "contact", "name": "Dana Whitfield", "role": "VP of Operations", "email": ""},
+    {"kind": "contact", "name": "Marcus Lee", "role": "IT Security Lead", "email": ""},
+    {"kind": "budget", "amount": "120000"},
+    {"kind": "timeline", "target": "2027-Q1"},
+    {"kind": "risk", "category": "security_review"},
+    {"kind": "action_item", "owner": "Sam Ortiz", "timestamp": "00:03:20", "due": "2026-09-11"},
+    {"kind": "action_item", "owner": "Priya Nair", "timestamp": "00:03:31", "due": ""},
+    {"kind": "action_item", "owner": "Dana Whitfield", "timestamp": "00:03:45", "due": "2026-09-09"},
+    {"kind": "next_step", "date": "2026-09-22"},
+    {"kind": "stage", "stage": "discovery"}
+  ]
+}

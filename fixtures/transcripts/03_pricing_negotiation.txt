@@ -1,0 +1,19 @@
+# call_id: gong-59302
+# title: Pricing negotiation: Acme Logistics
+# date: 2026-10-06
+# account: Acme Logistics
+# deal: Acme Logistics - Route Optimization
+# internal: Sam Ortiz
+[00:00:05] Sam Ortiz: Thanks Elena, thanks Dana. I wanted to walk through the pricing proposal for the full rollout.
+[00:00:20] Elena Ruiz: Before we start, you should know we are also evaluating Routewise, and their quote came in lower.
+[00:00:41] Sam Ortiz: Appreciate the transparency. Our proposal is $138,000 per year for all three depots, including onboarding.
+[00:01:02] Elena Ruiz: That is above what we can do. Our approved budget is $110,000 for year one, and finance will not move on that.
+[00:01:25] Dana Whitfield: The pilot results were strong though. Dispatch time at Riverside dropped by about forty percent.
+[00:01:44] Sam Ortiz: If you can sign by October 31, I can offer a 10 percent discount on year one.
+[00:02:05] Elena Ruiz: That helps. FleetPilot also pitched us last month but they do not integrate with our telematics provider, so they are out.
+[00:02:30] Elena Ruiz: My concern is the contract term. Our legal team will push back on anything longer than one year.
+[00:02:48] Sam Ortiz: I'll send a revised order form with a one year term by Wednesday.
+[00:03:02] Elena Ruiz: I will run it by finance and get you an answer by October 15.
+[00:03:20] Dana Whitfield: We still want everything live across all depots by January.
+[00:03:35] Sam Ortiz: Let's meet on October 16 to finalize terms.
+[00:03:44] Elena Ruiz: Sounds good.

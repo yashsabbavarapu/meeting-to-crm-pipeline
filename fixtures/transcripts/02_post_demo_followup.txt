@@ -1,0 +1,20 @@
+# call_id: gong-58744
+# title: Post-demo follow-up: Acme Logistics
+# date: 2026-09-22
+# account: Acme Logistics
+# deal: Acme Logistics - Route Optimization
+# internal: Sam Ortiz, Priya Nair
+[00:00:03] Sam Ortiz: Thanks again for sitting through the demo, everyone. Marcus, glad you could join.
+[00:00:12] Marcus Lee: Sure. I'm Marcus Lee, IT Security Lead at Acme. My main concern is where the telematics data is stored.
+[00:00:30] Priya Nair: Everything sits in a single-tenant US region, encrypted at rest. I'll send you the data flow diagram today.
+[00:00:48] Marcus Lee: Good. Send it to marcus dot lee at acmelogistics dot com and I will start the security review this week.
+[00:01:10] Dana Whitfield: The team loved the dispatcher view. The depot managers want to see it running against live routes before we commit.
+[00:01:31] Sam Ortiz: That makes sense. We can run a two week pilot at one depot.
+[00:01:40] Dana Whitfield: Let's do the Riverside depot. I will also loop in Elena Ruiz, our Procurement Manager, since she owns the contract process.
+[00:02:02] Dana Whitfield: Her email is elena.ruiz@acmelogistics.com.
+[00:02:15] Marcus Lee: One risk: our legal team will need to review the data processing agreement, and they are slow.
+[00:02:33] Sam Ortiz: Understood. I'll send the DPA to Elena by Thursday so legal can start early.
+[00:02:50] Dana Whitfield: Our pilot needs to wrap by end of October so we can make a decision before budget planning.
+[00:03:10] Sam Ortiz: Next step is a pilot kickoff call on September 29 with Dana and the Riverside depot manager.
+[00:03:22] Marcus Lee: Maybe we also talk about SSO at some point.
+[00:03:30] Sam Ortiz: Sounds good, thanks all.

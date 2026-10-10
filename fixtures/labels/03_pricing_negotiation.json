@@ -1,0 +1,16 @@
+{
+  "transcript": "03_pricing_negotiation.txt",
+  "notes": "Hand-labeled. Sam's $138,000 is a seller quote, not customer budget. 'Above what we can do' is a budget constraint risk.",
+  "facts": [
+    {"kind": "competitor", "name": "Routewise"},
+    {"kind": "competitor", "name": "FleetPilot"},
+    {"kind": "budget", "amount": "110000"},
+    {"kind": "timeline", "target": "2027-01"},
+    {"kind": "risk", "category": "legal_review"},
+    {"kind": "risk", "category": "budget_constraint"},
+    {"kind": "action_item", "owner": "Sam Ortiz", "timestamp": "00:02:48", "due": "2026-10-07"},
+    {"kind": "action_item", "owner": "Elena Ruiz", "timestamp": "00:03:02", "due": "2026-10-15"},
+    {"kind": "next_step", "date": "2026-10-16"},
+    {"kind": "stage", "stage": "negotiation"}
+  ]
+}

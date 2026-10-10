@@ -1,0 +1,55 @@
+# Per-customer pipeline config. One file per deployment; nothing here is hardcoded.
+# This example is for "Northwind Software", a fictional seller of route-optimization software.
+
+customer: Northwind Software
+
+# People on the seller side. Their statements are never turned into customer contacts,
+# budgets, or risks. Transcripts can add more via a "# internal:" header line.
+internal_speakers:
+  - Sam Ortiz
+  - Priya Nair
+
+# Facts at or above the threshold auto-apply on sync. Below it, they go to the review queue.
+thresholds:
+  default: 0.75
+  contact: 0.70
+  budget: 0.80
+  risk: 0.75
+
+# Ordered deal stages. A stage fact only auto-applies when it moves the deal forward.
+# Signals are lowercase phrases; the most advanced stage mentioned in a call wins.
+stages:
+  - name: discovery
+    signals: ["tell me about how", "what made you take this call", "walk me through your current"]
+  - name: demo
+    signals: ["sitting through the demo", "after the demo", "the demo went"]
+  - name: pilot
+    signals: ["pilot at", "pilot kickoff", "pilot results"]
+  - name: negotiation
+    signals: ["pricing proposal", "discount", "order form", "contract term"]
+  - name: closed_won
+    signals: ["countersigned", "signed the order form"]
+  - name: closed_lost
+    signals: ["decided to go with another", "going with another vendor"]
+
+# Deals in these stages are never auto-modified. Every change goes to human review.
+protected_stages: [closed_won, closed_lost]
+
+# Fact kind -> CRM field name. A Salesforce adapter would map these to Amount, CloseDate, NextStep.
+field_map:
+  budget: amount
+  timeline: close_target
+  competitor: competitors
+  risk: risks
+  next_step: next_step
+  stage: stage
+
+# Known competitors for this customer's market. Matched case-insensitively.
+competitors: [Routewise, FleetPilot, Optimo]
+
+sync:
+  # Overwriting a non-empty CRM field with a different value requires human approval.
+  review_overwrites: true
+  # Fields expected to change every call, so overwriting them is routine.
+  freely_updated_fields: [next_step]
+  default_deal_name: "{account} - New Business"

@@ -1,0 +1,16 @@
+{
+  "transcript": "02_post_demo_followup.txt",
+  "notes": "Hand-labeled. 'Pilot needs to wrap by end of October' is a decision date, not a go-live target, so no timeline label.",
+  "facts": [
+    {"kind": "contact", "name": "Marcus Lee", "role": "IT Security Lead", "email": "marcus.lee@acmelogistics.com"},
+    {"kind": "contact", "name": "Elena Ruiz", "role": "Procurement Manager", "email": "elena.ruiz@acmelogistics.com"},
+    {"kind": "risk", "category": "security_review"},
+    {"kind": "risk", "category": "legal_review"},
+    {"kind": "action_item", "owner": "Priya Nair", "timestamp": "00:00:30", "due": "2026-09-22"},
+    {"kind": "action_item", "owner": "Marcus Lee", "timestamp": "00:00:48", "due": "2026-09-25"},
+    {"kind": "action_item", "owner": "Dana Whitfield", "timestamp": "00:01:40", "due": ""},
+    {"kind": "action_item", "owner": "Sam Ortiz", "timestamp": "00:02:33", "due": "2026-09-24"},
+    {"kind": "next_step", "date": "2026-09-29"},
+    {"kind": "stage", "stage": "pilot"}
+  ]
+}
